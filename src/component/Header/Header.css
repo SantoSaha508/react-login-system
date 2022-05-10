@@ -1,0 +1,25 @@
+.logo{
+    color: aliceblue;
+    margin-left: 20px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(22, 22, 95);
+    padding: 10px;
+}
+.items a {
+    text-decoration: none;
+    margin-right: 20px;
+    background-color: rgb(222, 186, 132);
+    color: aliceblue;
+    padding: 5px 15px;
+    border-radius: 8px;
+}
+.items a:focus{
+    background-color: orange;
+}
+.items a:hover{
+    background-color: orange;
+}
